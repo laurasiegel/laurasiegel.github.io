@@ -927,6 +927,14 @@ body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duratio
         left: 40px;
     }
 
+    [data-aos=fade-right] {
+    transform: none !important; 
+    }
+
+    [data-aos=fade-left] {
+    transform: none !important; 
+    }
+
     ul.timeline > li > .timeline-badge {
         left: 15px;
         margin-left: 0;
