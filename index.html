@@ -510,11 +510,10 @@
       <script src="http://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 
       <script>
- disable: function () {
-    var maxWidth = 768;
-    return window.innerWidth < maxWidth;
-  }
-    </script>
+    AOS.init({
+      disable: 'mobile'
+    });
+  </script>
       
 
 
