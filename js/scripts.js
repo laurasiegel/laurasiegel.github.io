@@ -34,6 +34,10 @@
   }
 });
 
+  $(window).on('resize', function () {
+    $('timeline-panel').toggleClass('fade-right', $(window).width() < 768);
+});
+
 $(document).ready(function() {
   $('#contact-form').submit(function(e) {
       var name = $('#inputName')
